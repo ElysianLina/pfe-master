@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+.env
+.venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Données - IMPORTANT : ne pas pusher les gros fichiers !
+data/
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.h5
+*.pt
+*.bin
+*.npy
+
+# Modèles entraînés
+models/saved/
+*.pth
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# API keys et secrets
+secrets.json
+keys.txt
+*.key
+config.ini
